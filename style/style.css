@@ -1,0 +1,25 @@
+body {
+    font-size: 32px;
+    color: whitesmoke;
+}
+.outer1 {
+    height: 200px;
+    background-color: blue;
+    padding: 25px 15px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    border-top: 1px solid transparent;
+
+}
+
+.outer2 {
+    height: 200px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.inner1 {
+    height: 100px;
+    background-color: red;
+    width: 80%;
+}
