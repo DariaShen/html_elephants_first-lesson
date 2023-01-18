@@ -1,64 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@500;600;800&display=swap');
-
-* {
-    margin: 0;
-}
 body {
     background-color: whitesmoke;
     font-family: 'Raleway', sans-serif;
-
+    font-weight: 500;
 }
 
 .header {
     height: 400px;
-    background-image: url("../images/coffee-bgnd.jpeg");
+    background-image: url("/Images/coffee-bgnd.jpeg");
     background-position: center;
-    background-repeat: no-repeat;
-    /* border-top: 1px solid black;
-    padding-top: 143px;
-    box-sizing: border-box;*/
+    background-size: cover ;
+    /*background-repeat: no-repeat;*/
+    /*border-top: 1px solid transparent;*/
+    /*padding-top: 1px;*/
+    /*padding-top: 143px;*/
+    /*box-sizing: border-box;*/
 }
 
 h1 {
-    font-family: 'Covered By Your Grace', cursive;
     font-size: 100px;
     text-align: center;
     padding-top: 143px;
     /*margin-top: 142px;*/
-    color:rgba( 3, 150, 100, 0.75);
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
 }
 
-.main > ul{
-    list-style: none;
-    padding: 0;
+.left {
+    position: absolute;
+    left: 30px;
+    width: 45%;
+
 }
 
-.main li {
-    margin: 100px;
-    border-bottom: 1px  solid  #e4bb97;
-    padding-bottom: 60px;
+.right {
+    position: absolute;
+    right: 30px;
+    width: 45%;
 }
 
-.main li > h2 {
-    font-weight: 200;
+.main {
+    width: 100%;
+}
+
+
+.main h2 {
+    font-weight: 600;
     font-size: 28px;
     background-color: #aa8eb5;
     text-align: center;
     text-transform: uppercase;
-
 }
 
-.main li > p {
-    color: #445544;
+.main  p {
+    color: #454;
     font-weight: 500;
     padding: 0 5px;
     text-align: justify;
     text-indent: 30px;
     line-height: 1.5;
+    height: 70px;
+    overflow-y: auto;
+
 }
 
-.main li > a:link {
+.main  a:link {
     color: #214e34;
     font-weight: 600;
     text-transform: uppercase;
@@ -66,14 +73,15 @@ h1 {
     letter-spacing: 2px;
 }
 
-.main li > a:visited {
+.main a:visited {
     color: violet;
 }
 
-.main li > a:hover {
+.main a:hover {
     color: red;
 }
 
-.main li > a:active {
+.main a:active {
     color: yellow;
 }
+
